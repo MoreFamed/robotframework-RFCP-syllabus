@@ -75,7 +75,7 @@ Test Case Name
 
 In the example above, the test case `Test Case Name` contains three keyword calls.
 The first keyword call `Keyword Call` has two arguments, `argument one` and `argument two`.
-The second keyword call even though it is split over two lines is considered one logical line and identical to the first keyword call.
+The second keyword call even though it is split over three lines is considered one logical line and identical to the first keyword call.
 The third keyword call is a keyword call that assigns the return value of the keyword `Keyword Getter Call` to the variable `${variable_assignment}`.
 
 **Example 2**: In the `*** Settings ***` section, the settings are separated from their values by four or more spaces.
