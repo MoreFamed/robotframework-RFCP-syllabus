@@ -50,13 +50,13 @@ Example with tokens in comments:
 # TESTCASE HEADER |
 Test Case Name
 # TESTCASE   | EOL
-      Keyword Call     argument one     argument two
+      Keyword Call    argument one     argument two
 # SEP |  KEYWORD | SEP | ARGUMENT | SEP | ARGUMENT | EOL
       Keyword Call
 # SEP |  KEYWORD | EOL
-      ...            argument one
+      ...             argument one
 # SEP | CONTINUATION | ARGUMENT | EOL
-      ...            argument two
+      ...             argument two
 # SEP | CONTINUATION | ARGUMENT | EOL
       ${variable_assignment}     Keyword Getter Call
 # SEP |     ASSIGNMENT     | SEP |     KEYWORD     | EOL
@@ -66,10 +66,10 @@ Plain example for better readability:
 ```robotframework
 *** Test Cases ***
 Test Case Name
-      Keyword Call     argument one     argument two
+      Keyword Call    argument one     argument two
       Keyword Call
-      ...            argument one
-      ...            argument two
+      ...             argument one
+      ...             argument two
       ${variable_assignment}     Keyword Getter Call
 ```
 
